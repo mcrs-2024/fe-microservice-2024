@@ -1,0 +1,231 @@
+.ant-card-body {
+  padding: 6px 8px !important;
+}
+.ant-card-head {
+  padding: 2px 12px !important;
+  min-height: fit-content !important;
+}
+.crop-image-modal-wrapper {
+  z-index: 1600 !important;
+}
+.table-custom {
+  .ant-table-cell {
+    padding: 6px !important;
+  }
+}
+.ant-pagination {
+  display: flex !important;
+  align-items: center !important;
+  .ant-pagination-options {
+    justify-self: end !important;
+    margin-left: auto !important;
+  }
+}
+.ant-modal-content {
+  padding: 14px 16px !important;
+  .ant-modal-header .ant-modal-title {
+    .ant-typography {
+      margin: 0 !important;
+    }
+  }
+  .ant-modal-footer {
+    margin-top: 0 !important;
+  }
+}
+.table-custom-visible-columns-checkbox-group {
+  span {
+    font-weight: 400 !important;
+  }
+}
+.ant-btn {
+  padding: 5px 10px !important;
+}
+// registration
+.registration {
+  .patientId{
+    padding-left: 49px !important;
+  }
+  .job {
+    // padding-left: 48px !important;
+    // padding-right: 20px !important;
+  }
+  .identifyCardNumber {
+    // padding-left: 30px !important;
+  }
+  .nationality {
+    // padding-right: 36px !important;
+    // padding-left: 30px !important;
+  }
+  .fullNamePatient {
+    // padding: 0 36px 0 30px !important;
+  }
+  .feePayer {
+    padding-left: 29px !important;
+  }
+  .year {
+    padding-left: 51px !important;
+  }
+  .age {
+    padding-left: 10px !important;
+  }
+  .genderPatient {
+    padding-left: 40px !important;
+  }
+  .hospitalizationDatetime {
+    padding-left: 59px !important;
+  }
+  .medicallyExaminationPlace {
+    padding-left: 19px !important;
+  }
+  .applyOrder {
+    padding-left: 17px !important;
+  }
+  .validFrom {
+    padding-left: 59px !important;
+  }
+  .amountCoveredByExemptionAndCopaymentDate {
+    padding-left: 42px !important;
+  }
+  .relationWithPatient {
+    padding-left: 23px !important;
+  }
+  .validTo {
+    padding-left: 37px !important;
+  }
+  .ethnicGroup {
+    padding-left: 31px !important;
+  }
+  .dateOfBirth{
+    padding-left: 20px !important;
+  }
+  .relationDateOfBirth {
+    padding-left: 18px !important;
+  }                       
+  .GCTCode {
+    padding-left: 18px !important;
+  }
+  .phoneNumberPatient {
+    padding-left: 34px !important;
+  }
+  .classification {
+    padding-left: 23px !important;
+  }
+  .priority_patient {
+    padding-left: 27px !important;
+  }
+  .segmented {
+    .ant-segmented {
+      padding: 0px !important;
+      color: var(--bs-topbar-bg) !important;
+      transition:
+        color 0.3s ease,
+        background-color 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+
+      :hover {
+        background-color: none !important;
+        color: var(--bs-topbar-bg) !important;
+      }
+    }
+
+    .ant-segmented-group {
+      background-color: #fff !important;
+      border: 2px solid var(--bs-topbar-bg) !important;
+      border-radius: 7px;
+      transition: border-color 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+    }
+
+    .ant-segmented-item-selected {
+      background-color: var(--bs-topbar-bg) !important;
+      color: white !important;
+      transition:
+        color 0.3s ease,
+        background-color 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+
+      :hover {
+        color: white !important;
+      }
+    }
+    .ant-select-single.ant-select-sm {
+      font-size: 12px;
+      height: 25px !important;
+  }
+    .ant-select-selector {
+      padding: 2px 7px !important;
+      background: none !important;
+      border: none !important;
+    }
+    .ant-select-dropdown
+      .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+      color: #0000 !important;
+      font-weight: 600;
+      background-color: none !important;
+    }
+    .ant-select .ant-select-arrow {
+      color: black !important;
+    }
+  }
+}
+
+.consecutiveYears {
+  .ant-checkbox-wrapper {
+    justify-content: end !important;
+    align-items: center !important;
+  }
+}
+.Route {
+  padding-left: 69px !important;
+}
+.ant-col {
+  padding:1px 2px !important;
+  height: unset !important;
+  .box-registration {
+    width: 100% !important;
+  }
+}
+.ant-input,
+.ant-select-selector,
+.ant-picker,
+
+.ant-input-number {
+  border-radius: 4px !important;
+  font-size: 12px !important;
+}
+.ant-btn{
+  border-radius: 4px !important;
+  font-size: 13px !important;
+}
+.ant-input {
+padding: 2px 7px !important;
+}
+
+.table {
+  margin-bottom: 0px !important;
+  .ant-table-thead {
+    .ant-table-cell {
+      background-color: var(--bs-topbar-bg);
+      color: white !important;
+    }
+  }
+}
+.hiddenBr {
+  .ant-popover-arrow {
+    display: none !important;
+  }
+  .ant-popover-content {
+    .ant-popover-inner {
+      background-color: none !important;
+      padding: 0px !important;
+    }
+  }
+}
+.ant-form-item {
+  .ant-form-item-label {
+    label::after {
+      content: ' ' !important;
+      position: relative;
+      margin-block: 0;
+      margin-inline-start: 2px;
+      margin-inline-end: 8px;
+    }
+  }
+}

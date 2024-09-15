@@ -1,0 +1,16 @@
+.form-item-container {
+  margin-bottom: 4px !important;
+
+  .ant-form-item-control-input {
+    min-height: fit-content !important;
+  }
+
+  .ant-form-item-label {
+    label {
+      font-weight: 400 !important;
+      font-size: 12px !important;
+    }
+    // padding: 0 0 4px !important;
+  }
+}
+

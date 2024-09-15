@@ -1,0 +1,79 @@
+.input-patient-id {
+  // width: 110px !important;
+}
+
+.input-phoneNumberPatient-id {
+  // width: 110px !important;
+}
+.input-Date-id {
+  // width: 150px !important;
+}
+.registration {
+  .title-patient {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    .content-title {
+      cursor: pointer;
+      align-items: center;
+      display: flex;
+      top: 7px;
+      left: 159px;
+      padding: 4px 8px;
+      gap: 4px;
+      border-radius: 8px;
+      opacity: 0px;
+      background: var(--Colors-Primary-Primary-5, #148cfb1a);
+      span,
+      .icon {
+        color: #148cfb !important;
+        font-weight: 400;
+      }
+    }
+  }
+  .segmented {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding: 10px 15px;
+    .segmented-option {
+      width: 20% !important;
+    }
+  }
+  p {
+    margin: 0;
+  }
+  .sub {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #ffff;
+    div {
+      display: flex;
+      gap: 30px;
+      button {
+        width: 100%;
+        height: 30px;
+        border-radius: 7px;
+      }
+    }
+  }
+  .desktop{
+    left: 282px !important;
+
+  }
+  .mobile{
+    left: 92px !important;
+  }
+  .collapse-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  .collapse-content.active {
+    max-height: 500px;
+  }
+}

@@ -1,0 +1,32 @@
+.tabs-custom-container {
+  width: 100%;
+  background-color: transparent;
+  box-shadow: none !important;
+  & > div {
+    padding: 0 !important;
+    .ant-tabs {
+      &-nav {
+        background-color: #fff;
+        padding: 8px !important;
+        padding-bottom: 12px !important;
+        border-radius: 6px;
+        margin-bottom: 12px;
+        box-shadow: 0 1px 1px rgba(50, 58, 70, .06);
+        .ant-tabs-tab {
+          &:not(:first-child) {
+            margin-left: 24px !important;
+          }
+          &-btn {
+            font-weight: 500;
+            text-shadow: unset;
+          }
+          padding: 0 !important;
+        }
+      }
+      .ant-tabs-content-holder {
+        margin-top: 0;
+        background-color: transparent;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+export enum PERMISSION_CODES {
+  CREATE = 'CREATE',
+  VIEW = 'VIEW',
+  UPDATE = 'UPDATE',
+  DELETE = 'DELETE',
+  IMPORT = 'IMPORT',
+  EXPORT = 'EXPORT',
+}

@@ -1,0 +1,13 @@
+{
+  "prettier.configPath": "./.prettierrc.json",
+  "eslint.codeActionsOnSave.rules": null,
+  "eslint.format.enable": true,
+  "eslint.debug": true,
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "EditorConfig.EditorConfig",
+    "hossaini.bootstrap-intellisense"
+  ],
+  "cSpell.words": ["Actived", "chuyenkhoa", "Datetime", "Tital"]
+}

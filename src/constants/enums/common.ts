@@ -1,0 +1,17 @@
+export enum TYPE_FIELD {
+  TEXT = 'text',
+  PASSWORD = 'password',
+  SELECT = 'select',
+  CHECKBOX = 'checkbox',
+  RADIO = 'radio',
+  FILE = 'file',
+  HIDDEN = 'hidden',
+  WEEK_PICKER = 'week-picker',
+  DATE_PICKER = 'date-picker',
+  RANGE_PICKER = 'range-picker',
+  INPUT_NUMBER = 'input-number',
+  AUTO_COMPLETE = 'auto-complete',
+  TEXT_AREA = 'text-area',
+  FILE_UPLOAD = 'FILE_UPLOAD',
+  COMBO_BOX = 'COMBO_BOX',
+}
